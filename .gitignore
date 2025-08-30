@@ -1,0 +1,28 @@
+# Ignore generated dump files
+*_all_code_dump_*.md
+*_all_code_dump_*.md.gz
+*_all_code_dump_*.sha256
+
+# Ignore archive bundles
+archives/
+
+# Ignore checksum ledger
+checksums_index.txt
+
+# Python cache & venv clutter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+*.db
+
+# Virtual environments
+.venv/
+venv/
+myenv/
+
+# IDE/project files
+.idea/
+.vscode/
+*.swp
